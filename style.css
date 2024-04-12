@@ -1,0 +1,38 @@
+#welcome {
+    background-color: rgb(240, 225, 220)
+}
+
+#navbar {
+    background-color: #000000;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+}
+
+#about-me {
+    background-color: rgb(251, 248, 243);
+}
+
+.hobbies-color {
+    background-color: #1B4242;
+}
+
+.orange {
+    background-color: rgb(245, 167, 121)
+}
+
+.computer-photo {
+    width: 720px;
+}
+
+.welcome-bg {
+    background-color: rgb(240, 225, 220)
+}
+
+.about-me-bg {
+    background-color: rgb(251, 248, 243);
+}
+
+
+

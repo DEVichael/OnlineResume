@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michal Ziemba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#about-me">About me</a>
+            <a class="nav-link" href="#education">Education</a>
+            <a class="nav-link" href="#projects">Projects</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section id="welcome" href="#">
+    <div class="container pt-sm-5">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3">
+        <div class="col-12 col-sm-3 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Michał Ziemba</h1>
+          <p class="lead">your future employee</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+            <a type="button" class="btn btn-primary me-md-2 fw-bold" href="#about-me">About me</a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-9 pt-sm-5">
+          <div class="row">
+          <!-- jak będzie za mało miejsca i nie będzie się stykać laptop z dołem to wrzucić tutaj <div class="col-md-12 pt-5"></div> -->
+          <div class="col-12 pt-sm-5 mt-5"></div>
+            <div class="col-12">
+              <img src="computer-photo.png" class="d-block mx-lg-auto img-fluid ms-md-5" alt="notebook image" width="700" height="500" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-5 orange"></div>
+  </section>
+  <section id="about-me">
+    <div class="container">
+        <h2 class="text-center pt-5 px-4 fw-bold text-body-emphasis">About me</h2>
+        <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3 rounded-4 orange">
+                <img class="m-2" src="controller-icon.svg" alt="gamepad" width="40" height="40">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Video Games</h3>
+              <p>Do you need somebody who will play with you in video games? No problem. If you only want we can play in EA FC together, but you must be prepare to lose with me.</p>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3 rounded-4 orange">
+                <img class="m-2" src="soccer_ball2.svg" alt="ball to football" width="40" height="40">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Sport</h3>
+              <p>Sport generally football is my passion. I can play and watch football matches every time so if you have a time let' s go to play!</p>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3 rounded-4 orange">
+                <img class="m-2" src="hourglass-split.svg" alt="hourglass" width="40" height="40">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">History</h3>
+              <p>Do you know when the Battle of Chocim was? I don't know either, but I like history only that I am more interested in specific events, not in learning all the dates by heart.</p>
+            </div>
+          </div>
+    </div>
+</section>
+<section id="education">
+  <div class="container py-5">
+        <h2 class="fw-bold text-center py-3">Education</h2>
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 welcome-bg rounded-3">
+          <h3>Master Degree in Automation and Robotics</h3>
+          <p>Kraków University of Technology, 2023</p>
+          <button class="btn btn-outline-secondary" type="button">My diploma thesis</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+          <h3>Engineer Degree in Production Engineering</h3>
+          <p>Kraków University of Technology, 2020</p>
+          <button class="btn btn-outline-secondary" type="button">My diploma thesis</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="projects">
+  <h2 class="fw-bold text-center py-3">Projects</h2>
+  <div class="about-me-bg">
+    <div class="container px-4 py-2">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
+        <div class="col-12 col-sm-12 col-lg-6">
+          <img src="simple-piano.png" class="d-block mx-lg-auto img-fluid rounded-3" alt="Simple piano kit" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6 pb-3">
+          <h3 class="fw-bold text-body-emphasis lh-1">Simple piano kit</h3>
+          <p class="lead">A simple piano kit set to play the songs you want and you can use the "Sto lat" button to play a Polish birthday song. I don't have some of the keys here because it doesn't look good on the page when you are on smaller devices.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="https://devichael.github.io/Simple-piano-kit/" type="button" class="btn btn-primary btn-lg px-4 me-md-2">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container px-4 py-2">
+    <div class="row flex-lg-row align-items-center g-5 py-3">
+      <div class="col-12 col-sm-12 col-lg-6">
+        <img src="alex.png" class="d-block mx-lg-auto img-fluid rounded-3" alt="ALEX website design" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h3 class="fw-bold text-body-emphasis lh-1 mb-3">ALEX</h3>
+        <p class="lead">
+          The project shows what I'm currently doing, which is how vacuum plates and the grippers I produce work. I intend to develop it on an ongoing basis by adding a contact form and photos of the products I get orders for.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a href="https://grippersandplates.com/" type="button" class="btn btn-primary btn-lg px-4 me-md-2">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="about-me-bg">
+    <div class="container px-4 py-2">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
+        <div class="col-12 col-sm-12 col-lg-6">
+          <img src="tindog.png" class="d-block mx-lg-auto img-fluid rounded-3" alt="Tindog" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6 pb-3">
+          <h3 class="fw-bold text-body-emphasis lh-1">Tindog</h3>
+          <p class="lead">The best dating app for dogs. If you are a single dog this app is definitely for you. Bow-wow! In this project you can see how you can quickly build beautiful pages using the bootstrap library.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="https://devichael.github.io/Tindog/" type="button" class="btn btn-primary btn-lg px-4 me-md-2">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container px-4 py-2">
+    <div class="row flex-lg-row align-items-center g-5 py-3">
+      <div class="col-12 col-sm-12 col-lg-6">
+        <img src="Mondrian.png" class="d-block mx-lg-auto img-fluid rounded-3" alt="Mondrian project" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h3 class="fw-bold text-body-emphasis lh-1 mb-3">Mondrian</h3>
+        <p class="lead">Do you like Mondrian's paintings? If so, this site is for you because it reproduces one of his most famous masterpieces and it's all done in css grid.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a href="https://devichael.github.io/Mondrian/" type="button" class="btn btn-primary btn-lg px-4 me-md-2">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="about-me-bg">
+    <div class="container px-4 py-2">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
+        <div class="col-12 col-sm-12 col-lg-6">
+          <img src="Flexbox-pricing-table.png" class="d-block mx-lg-auto img-fluid rounded-3" alt="Flexbox pricing table" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6 pb-3">
+          <h3 class="fw-bold text-body-emphasis lh-1">Flexbox pricing table</h3>
+          <p class="lead">Are you a shopaholic? If so, this site is definitely for you because you can gaze at the prices in peace, but unfortunately you won't buy anything. The site shows what a flexbox can be useful for.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="https://devichael.github.io/Flexbox-pricing-table/" type="button" class="btn btn-primary btn-lg px-4 me-md-2">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container px-4 py-2">
+    <div class="row flex-lg-row align-items-center g-5 py-3">
+      <div class="col-12 col-sm-12 col-lg-6">
+        <img src="Creative-design-agency-project.png" class="d-block mx-lg-auto img-fluid rounded-3" alt="Creative design agency" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h3 class="fw-bold text-body-emphasis lh-1 mb-3">Creative design agency</h3>
+        <p class="lead">I made this project almost at the beginning of my web programming adventure. There's nothing special about it, other than a well-built site with no grid, flexbox or bootstrap library, and I know it doesn't even compare to my current site, but I think it's worth uploading so you can see my progress from where I started and where I am now.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a href="https://devichael.github.io/Creative-design-agency/" type="button" class="btn btn-primary btn-lg px-4 me-md-2">Learn more</a>          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="footer">
+    <footer class="py-3 mt-4 bg-body-tertiary bg-dark" data-bs-theme="dark">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#about-me" class="nav-link px-2 text-body-secondary">About me</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link px-2 text-body-secondary">Education</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link px-2 text-body-secondary">Projects</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 Michał Ziemba, all rights reserved</p>
+    </footer>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
